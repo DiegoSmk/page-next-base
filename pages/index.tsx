@@ -1,6 +1,8 @@
+import React from 'react'
+import { NextPage } from 'next'
 import Nav from '../components/nav'
 
-export default function IndexPage() {
+const IndexPage: NextPage = () => {
   return (
     <div>
       <Nav />
@@ -12,3 +14,5 @@ export default function IndexPage() {
     </div>
   )
 }
+
+export default IndexPage
